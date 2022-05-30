@@ -1,26 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-    font-family: 'Monserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 20px;
-    background: #ddd;
-    color: black;
+  font-family: "Monserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  background: #ddd;
+  color: black;
 }
 
-
 h3 {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 .experience {
-    border: 2px;
-    border-radius: 10px;
-    background-color: rgb(174, 174, 174);
-    
+  border: 2px;
+  border-radius: 10px;
+  background-color: rgb(174, 174, 174);
 }
 
 .table {
-    padding-left: 20px;
+  padding-left: 20px;
+}
+
+.hobbies {
+  border-radius: 10px;
+  background-color: rgb(202, 201, 201);
+}
+
+.feedback {
+  border-radius: 10px;
+  background-color: rgb(205, 205, 205);
+}
+
+.reachout {
+  border-radius: 10px;
+  background-color: whitesmoke;
 }
