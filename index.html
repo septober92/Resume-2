@@ -11,52 +11,87 @@
 <link rel="stylesheet" href="styles.css">
 
 <body>
-    <h1>Антон Кузьмин</h1>
 
-    <p><img src="imgs/anton.JPG" alt="Anton" width="200"></p>
-
-    <article>
-        <strong>Магистр</strong>, учитель <em>английского</em> и <em>французского</em> языков
-    </article>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Хобби</a></li>
+            <li><a href="#">Опыт</a></li>
+            <li><a href="#">Связаться</a></li>
+        </ul>
+    </nav>
     
-    <div class="card experience">
-        <h3>Опыт работы</h3>
-
-        <div id="table" width="300" class="table">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Название</th>
-                        <th>Должность</th>
-                        <th>Год</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>СОШ</td>
-                        <td>Учитель английского</td>
-                        <td>2013-2017</td>
-                    </tr>
-                </tbody>
-            </table>
+    <div class="container">
+    <div class="info">
+        <p><img src="imgs/anton.JPG" alt="Anton" class="profilepic"></p>
+        
+        <div class="info-text">
+        <h1>Антон Кузьмин</h1>
+        <p><em><strong>Магистр</strong>, учитель английского и французского языков.</em></p>
+            
+        <h3>Социальные сети</h3>
+            
+        <a href="http://" target="_blank" rel="noreferrer noopener">Instagram</a>
+        |
+        <a href="http://" target="_blank" rel="noreferrer noopener">VK</a>
+        |
+        <a href="http://" target="_blank" rel="noreferrer noopener">YouTube</a>
         </div>
     </div>
-
-    <div id="block1" class="card hobbies">
-        <h3>Мои хобби</h3>
-        <p>
-        <ul>
-            <li>Музыка</li>
-            <li>Авиация</li>
-            <li>Искусство</li>
-            <li>IT</li>
-        </ul>
-        </p>
+    
+    <div class="card bg-1">
+    <h2>Мои хобби</h2>
+        
+    <ul class="list">
+        <li>Vinyls</li>
+        <li>Авиация</li>
+        <li>Искусство</li>
+        <li>IT</li>
+    </ul>
+    </div>
+    
+    <div class="card bg-2">
+    <h2>Опыт работы</h2>
+    
+    <div id="table" width="300">
+        <table class="table">
+            <!-- <thead>
+            <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Год</th>
+            </tr>
+            </thead> -->
+                <tr>
+                    <td>СОШ - Россия</td>
+                    <td>Учитель английского</td>
+                    <td>2013-2017</td>
+                </tr>
+                <!-- (tr>(td{iii})*5)*3 -->
+                <tr>
+                    <td>Hyledar - Shenzhen</td>
+                    <td>English Teacher</td>
+                    <td>2017-2018</td>
+                </tr>
+                <tr>
+                    <td>Experimental KG - Shenzhen</td>
+                    <td>English Teacher</td>
+                    <td>2018-2019</td>
+                </tr>
+                <tr>
+                    <td>Better English - Beijing</td>
+                    <td>Engligh Teacher</td>
+                    <td>2019-2021</td>
+                </tr>
+                <tr>
+                    <td>i2 - Chengdu</td>
+                    <td>English Teacher</td>
+                    <td>2021 - сейчас</td>
+                </tr>
+        </table>
+    </div>
     </div>
 
-    <div class="card feedback">
-    <h3>Связаться со мной</h3>
-
+    <h2>Связаться со мной</h2>
     <form action="" method="get">
         <div>
             <label for="fname">Ваше имя:</label>
@@ -77,22 +112,10 @@
         </div>
 
         <div>
-            <input type="submit" value="Отправить">
+            <button class="btn" type="submit">Отправить!</button>
         </div>
-    </div>
-
     </form>
-
-    <footer id="footer" class="card reachout">
-        <h3>Социальные сети</h3>
-
-        <a href="http://" target="_blank" rel="noreferrer noopener">Instagram</a>
-        |
-        <a href="http://" target="_blank" rel="noreferrer noopener">VK</a>
-        |
-        <a href="##" target="_blank" rel="noreferrer noopener">YouTube</a>
-    </footer>
-
+</div>
 </body>
 
 </html>
