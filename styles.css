@@ -140,6 +140,7 @@ a:active {
   padding: 10px;
   cursor: pointer;
   font-family: inherit;
+  font-size: inherit;
   color: #f1f1f1;
 }
 
@@ -233,7 +234,4 @@ a:active {
   outline: none;
   font-family: inherit;
   margin-bottom: 20px;
-}
-
-@media (max-width: 650px) {
 }
