@@ -14,9 +14,9 @@
 
     <nav class="navbar">
         <ul>
-            <li><a href="#">Хобби</a></li>
-            <li><a href="#">Опыт</a></li>
-            <li><a href="#">Связаться</a></li>
+            <li><a href="#hobbies">Хобби</a></li>
+            <li><a href="#exp">Опыт</a></li>
+            <li><a href="#getintouch">Связаться</a></li>
         </ul>
     </nav>
     
@@ -28,73 +28,66 @@
         <h1>Антон Кузьмин</h1>
         <p><em><strong>Магистр</strong>, учитель английского и французского языков.</em></p>
 
-        <p>Я люблю бла бла бла и яда яда.</p>
+        <p>Фанат своей профессии, временами делаю ремиксы, артворки в Procreate. Изучаю Frontend Development.</p>
             
         <h3>Социальные сети</h3>
             
-        <a href="http://" target="_blank" rel="noreferrer noopener">Instagram</a>
+        <a href="https://www.instagram.com/sept.ober_" target="_blank" rel="noreferrer noopener">Instagram</a>
         |
-        <a href="http://" target="_blank" rel="noreferrer noopener">VK</a>
+        <a href="https://vk.com/sept.ober" target="_blank" rel="noreferrer noopener">VK</a>
         |
-        <a href="http://" target="_blank" rel="noreferrer noopener">YouTube</a>
+        <a href="https://www.youtube.com/channel/UCJjuRCuCTkI-_DdTT6GWgRQ" target="_blank" rel="noreferrer noopener">YouTube</a>
         </div>
     </div>
     
-    <div class="card bg-1">
+    <div id="hobbies" class="card bg-1">
     <h2>Мои хобби</h2>
         
     <ul class="list">
-        <li>Vinyls</li>
+        <li>Виниловые пластинки</li>
+        <li>Музыка</li>
         <li>Авиация</li>
-        <li>Искусство</li>
         <li>IT</li>
     </ul>
     </div>
     
-    <div class="card bg-2">
+    <div id="exp" class="card bg-2">
     <h2>Опыт работы</h2>
     
     <div id="table" width="300">
         <table class="table">
-            <!-- <thead>
             <tr>
-                <th>Название</th>
-                <th>Должность</th>
-                <th>Год</th>
+                <td>СОШ - Россия</td>
+                <td>Учитель английского</td>
+                <td>2013-2017</td>
             </tr>
-            </thead> -->
-                <tr>
-                    <td>СОШ - Россия</td>
-                    <td>Учитель английского</td>
-                    <td>2013-2017</td>
-                </tr>
                 <!-- (tr>(td{iii})*5)*3 -->
-                <tr>
-                    <td>Hyledar - Shenzhen</td>
-                    <td>English Teacher</td>
-                    <td>2017-2018</td>
-                </tr>
-                <tr>
-                    <td>Experimental KG - Shenzhen</td>
-                    <td>English Teacher</td>
-                    <td>2018-2019</td>
-                </tr>
-                <tr>
-                    <td>Better English - Beijing</td>
-                    <td>Engligh Teacher</td>
-                    <td>2019-2021</td>
-                </tr>
-                <tr>
-                    <td>i2 - Chengdu</td>
-                    <td>English Teacher</td>
-                    <td>2021 - сейчас</td>
-                </tr>
+            <tr>
+                <td>Hyledar - Shenzhen</td>
+                <td>English Teacher</td>
+                <td>2017-2018</td>
+            </tr>
+            <tr>
+                <td>Experimental KG - Shenzhen</td>
+                <td>English Teacher</td>
+                <td>2018-2019</td>
+            </tr>
+            <tr>
+                <td>Better English - Beijing</td>
+                <td>Engligh Teacher</td>
+                <td>2019-2021</td>
+             </tr>
+             <tr>
+                <td>i2 - Chengdu</td>
+                <td>English Teacher</td>
+                <td>2021 - сейчас</td>
+            </tr>
         </table>
     </div>
     </div>
 
     
-    <form action="/" method="get" class="form">
+    <form id="getintouch" action="/" method="get" class="form">
         <h2>Связаться со мной</h2>
 
         <div class="form-row">
@@ -117,7 +110,7 @@
                 placeholder="О чем бы вы хотели спросить?"></textarea>
         </div>
 
-        <div>
+        <div class="center">
             <button class="btn" type="submit">Отправить!</button>
         </div>
     </form>
