@@ -14,11 +14,11 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <nav class="navbar">
         <ul>
-            <a href="#hobbies"><li>Хобби</li></a>
-            <a href="#exp"><li>Опыт</li></a>
-            <a href="#getintouch"><li>Связаться</li></a>
+            <a href="#hobbies"><li>Hobbies</li></a>
+            <a href="#exp"><li>Experience</li></a>
+            <a href="#getintouch"><li>Get In Touch</li></a>
             <a href="index.html"><li>RU</li></a>
-            <a href="index_en.html"><li>EN</li></a>
+            <a href="index_en.html"><li  class="active">EN</li></a>
             <!-- <a><li><div id="langlinks"></div></li></a> -->
         </ul>
     </nav>
@@ -28,12 +28,12 @@
         <p><img src="imgs/anton.JPG" alt="Anton" class="profilepic"></p>
         
         <div class="info-text">
-        <h1>Антон Кузьмин</h1>
-        <p>Магистр, учитель английского и французского языков.</p>
+        <h1>Anton Kuzmin</h1>
+        <p>Master of Education. English and French teacher.</p>
 
-        <p>Фанат своей профессии, временами делаю ремиксы, артворки в Procreate. Изучаю Frontend Development.</p>
+        <p>I'm passionate about teaching. Remixer & digital artist. Currently studying Front-end web development.</p>
             
-        <h3>Социальные сети</h3>
+        <h3>Find me on:</h3>
             
         <a href="https://www.instagram.com/sept.ober_" target="_blank" rel="noreferrer noopener">Instagram</a>
         |
@@ -44,24 +44,24 @@
     </div>
     
     <div id="hobbies" class="card bg-1">
-    <h2>Мои хобби</h2>
+    <h2>My hobbies</h2>
         
     <ul class="list">
-        <li>Виниловые пластинки</li>
-        <li>Музыка</li>
-        <li>Авиация</li>
+        <li>Vinyl Records</li>
+        <li>Digital Art</li>
+        <li>Aviation</li>
         <li>IT</li>
     </ul>
     </div>
     
     <div id="exp" class="card bg-2">
-    <h2>Опыт работы</h2>
+    <h2>Experience</h2>
     
     <div id="table" width="300">
         <table class="table">
             <tr>
-                <td>СОШ - Россия</td>
-                <td>Учитель английского</td>
+                <td>Public School - Russia</td>
+                <td>English Teacher</td>
                 <td>2015-2017</td>
             </tr>
                 <!-- (tr>(td{iii})*5)*3 -->
@@ -91,54 +91,51 @@
 
     
     <form id="getintouch" action="/" method="get" class="form">
-        <h2>Связаться со мной</h2>
+        <h2>Get in touch with me:</h2>
 
         <div class="form-row">
         <div class="form-group">
-            <label for="fname">Ваше имя:</label>
-            <input type="text" name="fname" id="fname" placeholder="Введите имя">
+            <label for="fname">Your name:</label>
+            <input type="text" name="fname" id="fname" placeholder="Your name here">
         </div>
 
         <div class="form-group"> 
-            <label for="email">Ваш email:<label>
+            <label for="email">Your email:<label>
             <input type="email" name="email" id="email" placeholder="example@mail.com">
         </div>    
         </div>
         
 
         <div class="form-group">
-            <label for="message">Ваше сообщение:</label>
+            <label for="message">Your message:</label>
             
             <textarea name="message" id="message" cols="30" rows="5"
-                placeholder="О чем бы вы хотели спросить?"></textarea>
+                placeholder="Leave your message here ;)"></textarea>
         </div>
 
         <div class="center">
-            <button class="btn" type="submit">Отправить!</button>
+            <button class="btn" type="submit">Send!</button>
         </div>
-
-        <script>
-                 //Get the button:
-    mybutton = document.getElementById("myBtn");
-    
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-    
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    }
-        </script>
     </form>
+    <script>
+mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+    </script>
 </div>
 </body>
 
