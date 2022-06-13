@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="styles.css">
 
 <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
     <nav class="navbar">
         <ul>
             <a href="#hobbies"><li>Хобби</li></a>
@@ -119,13 +119,12 @@
 
         <script>
                  //Get the button:
-    mybutton = document.getElementById("myBtn");
+    mybutton = document.getElementById("topBtn");
     
-    // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {scrollFunction()};
     
     function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
         mybutton.style.display = "block";
       } else {
         mybutton.style.display = "none";
