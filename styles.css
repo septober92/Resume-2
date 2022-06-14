@@ -53,8 +53,8 @@ body {
   background-color: #444;
 }
 
-.navbar ul a li:visited {
-  color: none;
+.navbar ul a {
+  color: white;
 }
 
 /* .navbar ul li a {
@@ -116,7 +116,7 @@ body {
 .card {
   border-radius: 15px;
   padding: 15px 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .card h2 {
